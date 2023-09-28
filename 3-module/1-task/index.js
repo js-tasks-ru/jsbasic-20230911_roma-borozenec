@@ -1,12 +1,8 @@
 function namify(users) {
+  // ваш код
 
-  let mass1=[];
-  for (let key in users) {
-
-    mass1[key]  = users[key].name;
+  return  users.map(function (nam) {return nam.name;});
 
 
-    console.log(mass1[key]);
-  }
-  return mass1
+
 }
